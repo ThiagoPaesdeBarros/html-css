@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Código fonte</h1>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <p>A tag "code" nos ajuda a ter textos mono-espaçados para que a leitura e interpretações de códigos descritos no HTML sejam melhores compreendidos. Conforme abaixo.</p>
+    <code>
+        num = int(imput('Digite um número'))
+        if num % 2 == 0;
+            print(f'O numero {num} é PAR')
+        else:
+            print(f'O número {num} é ÍMPAR)
+        print ('Fim do programa')
+
+    </code><br>
+    <p>Porém, (pode não parecer), mas esse texto possui uma Indentação (espaçamentos dados afim de se compreender melhor o código criado), que ajudaria a melhor compreensão do código criado.</p><br>
+    <p>Para isso envelopa-se a tag &lt;code&gt; com a tag &lt;pre&gt; da seguinte </p>
+
+    <pre>
+    <code>
+        num = int(imput('Digite um número'))
+        if num % 2 == 0;
+            print(f'O numero {num} é PAR')
+        else:
+            print(f'O número {num} é ÍMPAR)
+        print ('Fim do programa')
+
+    </code>
+    </pre>
+    <p>Para descrever este último parágrafo, fiz o seguinte: <strong>(repare que o texto todo obedeceu a indentação)</strong>.</p>
+    <pre>
+        <code>
+        <strong>&lt;p></strong>Porém, (pode não parecer), mas esse texto possui uma Indentação (espaçamentos dados afim de se compreender melhor o código criado), que ajudaria a melhor compreensão do código criado.<strong>&lt;/p>&lt;br></strong>
+        <strong>&lt;p></strong>Para isso envelopa-se a tag &lt;code&gt; com a tag &lt;pre&gt; da seguinte <strong>&lt;/p></strong>
+    
+        <strong>
+            &lt;pre>
+            &lt;code>
+        </strong>
+            num = int(imput('Digite um número'))
+            if num % 2 == 0;
+                print(f'O numero {num} é PAR')
+            else:
+                print(f'O número {num} é ÍMPAR)
+            print ('Fim do programa')
+    
+        <strong>
+            &lt;/code>
+            &lt;/pre>
+            </strong>
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: o computador é um burro muito rápido</p>
+    <h2>Citações completas</h2>
+    <p>Segundo Maurício Samy Silva, no seu livro <q cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=HTML&printsec=frontcover">Fundamentos de HTML5 e CSS3.</q></p>
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=HTML&printsec=frontcover">
+        Hipertexto é todo texto inserido em um documento para a web e que tem como principal característica a possibilidade de se interligar a outros documentos da web com uso dos nossos já conhecidos links, presentes nas páginas dos sites que estamos acostumados a visitar.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markap Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou amando.</p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+</body>
+</html>

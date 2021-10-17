@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações de texto.</title>
+    <style>
+        mark{
+            background-color: lime; 
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b> termo em negrito</b> usando a tag B (não semantica). </p> <!--Para o HTML esse texto que colocamos o negrito não tem significado, pois a tag utilizada não dá entendimento de semântica.-->
+    <p>Nesta frese, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semantica).</p> <!--Para o HTML esse texto que colocamos o negrito possui significado, pois a tag utilizada dá entendimento de semântica.-->
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frea, tenho um <i>texto em itálico</i> usando a tag i (não semantico).</p> <!--Para o HTML esse texto que colocamos o negrito não tem significado, pois a tag utilizada não dá entendimento de semântica.-->
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semantica).</p> <!--Para o HTML esse texto que colocamos o negrito possui significado, pois a tag utilizada dá entendimento de semântica.-->
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <MARk>um texto marcado</MARK> usando a tag MARK </p>
+    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final. </p> <!--Para utilizar o mark somente para o conteúdo que estou colocando nesta linha (por exemplo) posso colocar a forma (entenda-se forma como CSS) dentro da tag Mark como da seguinte forma: <Mark background-color: lime>. Dessa forma a marcação fica somente neste texto.-->
+    <h2>Texto grande e peguqeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p> <!--Letras pequenas tem um sentido como de contrato. Que é secundário mas deve ser lido (opnião do professor Guanabara).-->
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar um <del>texto como excluido</del> para indical que ele deve ser lido, mas não considerado</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar ênfase e indical que ele foi adicionado depois (semantica).</p>
+    <p>Existe também o <u>sublinhado</u> com a tag U (não semântica).</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tip x<sup>20</sup>+3</p>
+    <h2>Texto Subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        h1 {
+            background-color: rgb(2, 85, 2);
+            color: white;
+        }
+        
+        div {
+            background-color: whitesmoke;
+            width: 130px;
+            height: 16px;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            background-color: rgb(214, 211, 211);
+            height: 16px;
+        }
+        /* 
+            As pseudo classes são ativadas usando ":"
+            Os pseudos elementos são ativados usando "::"
+        */
+        /* SELETORES PERSONALIZADOS
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-elements
+            >  = children
+        */
+    </style>
+</head>
+<body>
+    <h1><strong>Exemplo de Hover</strong></h1>
+    <p>Passe o mouse sobre o exemplo abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>Texto escondido...</p>
+    </div>
+    <br>
+    <p>Fim do texto</p>
+    <p><a href="links.html">Clique para ir nos links</a></p>
+</body>
+</html>
